@@ -1,0 +1,1 @@
+food = ["pizza", "hamburger", "hotdog", "spaghetti", "pudding"]

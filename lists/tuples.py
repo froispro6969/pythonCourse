@@ -1,3 +1,5 @@
+# tuple = collection which is ordered and unchangeable used to group together related data
+
 student = ("Damian", 19, "male")
 
 print(student.count("Damian"))

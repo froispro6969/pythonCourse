@@ -18,7 +18,7 @@
 # print("Hello, my name is {:^10}. Nice to meet you".format(name)) #center
 
 number = 3.14123
-number1 = 1000
+number1 = 5400
 
 print('The number pi is {:.2f}'.format(number)) # wyswietli 3.14
 print('The number pi is {:,}'.format(number1)) # wyswietli 1,000

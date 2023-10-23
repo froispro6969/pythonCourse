@@ -19,7 +19,19 @@ grade = lambda grades: grades[1]
 
 studentss.sort(key=grade)
 
-for i in studentss:
-    print(i)
+#for i in studentss:
+    #print(i)
 
+
+
+studentssTuple = (("Squidward","F", 60),
+             ("Sandy","A",33),
+             ("Patrick","D",36),
+             ("Spongebob","B",20),
+             ("Mr.Krabs","C",78))
+
+sorted_studentss = sorted(studentssTuple, key=grade)
+
+for i in sorted_studentss:
+    print(i)
 
